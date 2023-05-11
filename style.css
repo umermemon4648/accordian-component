@@ -25,6 +25,7 @@ body{
     transition: transform 0.2s;
 }
 .icons.active{
+    margin-right: 20px;
     transform: rotate(-180deg);
 }
 .answer{
