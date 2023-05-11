@@ -22,7 +22,7 @@ body{
     color: black;
     font-size: 22px;
     margin-right: 20px;
-    transition: transform 0.2s;
+    transition: transform 0.4s;
 }
 .icons.active{
     margin-right: 20px;
@@ -32,9 +32,10 @@ body{
     color: #666;
     max-height: 0;
     overflow: hidden;
+    transition: max-height 0.3s;
 }
 
 .answer.active{
-    max-height: max-content;
     max-height: fit-content;
+    max-height: max-content;
 }
