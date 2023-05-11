@@ -4,3 +4,25 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5rem;
 }
+.accordian{
+    background-color: #FAFAFA;
+    padding: 4px 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #303649;
+    cursor: pointer;
+}
+.question{
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    color: black;
+    font-size: 22px;
+    margin-right: 20px;
+}
+.answer{
+    color: #666;
+}
